@@ -1,0 +1,63 @@
+.w250px {
+  width: 250px;
+}
+
+.w150px {
+  width: 150px;
+}
+
+.h150px {
+  height: 150px;
+}
+
+.w175px {
+  width: 175px;
+}
+
+.h175px {
+  height: 175px;
+}
+
+.w50px {
+  width: 50px;
+}
+
+.h50px {
+  height: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#search {
+  width: 250px;
+  transition: width 0.5s ease;
+}
+
+#search:focus {
+  width: 400px;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+.letter-spacing {
+  letter-spacing: 7px;
+}/*# sourceMappingURL=index.css.map */

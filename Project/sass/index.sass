@@ -1,0 +1,40 @@
+
+@import "_mix.sass"
+@include wnpx(250)
+@include wnpx(150)
+@include hnpx(150)
+@include wnpx(175)
+@include hnpx(175)
+
+@include wnpx(50)
+@include hnpx(50)
+@include wnpx(20)
+@include wnpx(100)
+@include wnpx(75)
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+body
+    height: 100vh
+
+#search
+    width: 250px
+    transition: width 0.5s ease
+#search:focus
+    width: 400px
+
+.hover
+    cursor: pointer
+
+.sticky-top
+    position: -webkit-sticky
+    position: sticky
+    top: 0
+
+.h100vh
+    height: 100vh
+
+.letter-spacing
+    letter-spacing: 7px
